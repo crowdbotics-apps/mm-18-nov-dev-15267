@@ -6,43 +6,43 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('home', '0002_load_initial_data'),
+        ("home", "0002_load_initial_data"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='customtext',
-            name='gjhgjhgjhgj',
+            model_name="customtext",
+            name="gjhgjhgjhgj",
             field=models.BigIntegerField(blank=True, null=True),
         ),
         migrations.AddField(
-            model_name='customtext',
-            name='hfhtrtyrytrytr',
+            model_name="customtext",
+            name="hfhtrtyrytrytr",
             field=models.BigIntegerField(blank=True, null=True),
         ),
         migrations.AddField(
-            model_name='customtext',
-            name='hgfhggfjhfjgfjf',
+            model_name="customtext",
+            name="hgfhggfjhfjgfjf",
             field=models.BigIntegerField(blank=True, null=True),
         ),
         migrations.AddField(
-            model_name='customtext',
-            name='hgfhjghjgjg',
+            model_name="customtext",
+            name="hgfhjghjgjg",
             field=models.BigIntegerField(blank=True, null=True),
         ),
         migrations.AddField(
-            model_name='customtext',
-            name='hgfytrytrytryt',
+            model_name="customtext",
+            name="hgfytrytrytryt",
             field=models.BigIntegerField(blank=True, null=True),
         ),
         migrations.AddField(
-            model_name='customtext',
-            name='hjfghjfhgfhgfhgf',
+            model_name="customtext",
+            name="hjfghjfhgfhgfhgf",
             field=models.BigIntegerField(blank=True, null=True),
         ),
         migrations.AddField(
-            model_name='customtext',
-            name='hjgjgjhgjh',
+            model_name="customtext",
+            name="hjgjgjhgjh",
             field=models.BigIntegerField(blank=True, null=True),
         ),
     ]
